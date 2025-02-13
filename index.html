@@ -31,7 +31,35 @@
         ></button>
       </div>
     </header>
-    <main id="tic-tac-toe" class="flex flex-col grow"></main>
+    <main
+      id="tic-tac-toe"
+      class="flex grow place-content-center place-items-center"
+    >
+      <div id="game-board" class="relative">
+        <div
+          class="w-full h-full absolute inset-0 *:absolute *:bg-zinc-400 *:dark:bg-zinc-500 *:rounded-xl -z-1"
+        >
+          <div class="my-2 h-[0.5rem] w-full top-[8rem]"></div>
+          <div class="my-2 h-[0.5rem] w-full bottom-[8rem]"></div>
+          <div class="mx-2 w-[0.5rem] h-full start-[8rem]"></div>
+          <div class="mx-2 w-[0.5rem] h-full end-[8rem]"></div>
+        </div>
+        <div
+          id="marks"
+          class="grid grid-cols-3 gap-6 text-8xl *:flex *:place-content-center *:place-items-center *:size-[8rem] *:rounded-xl *:cursor-pointer"
+        >
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+          <div class="hover:bg-zinc-300 hover:dark:bg-zinc-600"></div>
+        </div>
+      </div>
+    </main>
     <footer
       class="sticky bottom-0 h-12 flex items-center justify-center bg-inherit text-inherit z-2"
     >
