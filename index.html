@@ -1,35 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
     <script src="https://unpkg.com/@phosphor-icons/web@2.1.1"></script>
     <script src="./script.js"></script>
   </head>
-  <body class="flex flex-col min-h-dvh w-screen text-zinc-800 bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-800 transition-colors">
-    <header class="h-16 flex items-center justify-around sticky top-0 bg-inherit z-2">
+  <body
+    class="flex flex-col min-h-dvh w-screen text-zinc-800 bg-zinc-100 dark:text-zinc-100 dark:bg-zinc-800 transition-colors"
+  >
+    <header
+      class="h-16 flex items-center justify-around sticky top-0 bg-inherit z-2"
+    >
       <h1 class="before:mr-2 flex items-center justify-center text-4xl gap-1">
         <i class="ph-bold ph-hash-straight"></i>
         <span>Tic Tac Toe</span>
       </h1>
       <div class="flex flex-row gap-2 items-center justify-center">
-        <button id="change-theme" type="button" class="ph-bold ph-sun text-xl p-2 flex items-center justify-center rounded-xl transition-colors hover:bg-zinc-300 hover:dark:bg-zinc-600"></button>
+        <button
+          id="change-theme"
+          type="button"
+          class="ph-bold ph-sun text-xl p-2 flex items-center justify-center rounded-xl transition-colors hover:bg-zinc-300 hover:dark:bg-zinc-600"
+        ></button>
       </div>
     </header>
-    <main id="tic-tac-toe" class="flex flex-col grow">
-    </main>
-    <footer class="sticky bottom-0 h-12 flex items-center justify-center bg-inherit text-inherit z-2">
+    <main id="tic-tac-toe" class="flex flex-col grow"></main>
+    <footer
+      class="sticky bottom-0 h-12 flex items-center justify-center bg-inherit text-inherit z-2"
+    >
       <a href="https://github.com/jusqua" class="relative group">
-        <span class="absolute -bottom-px left-0 w-full sm:w-0 border-b transition-all group-hover:w-full border-zinc-800 dark:border-zinc-100"></span>
+        <span
+          class="absolute -bottom-px left-0 w-full sm:w-0 border-b transition-all group-hover:w-full border-zinc-800 dark:border-zinc-100"
+        ></span>
         jusqua
       </a>
       <i class="ph-bold ph-plus mx-2"></i>
       <a href="https://www.theodinproject.com" class="relative group">
-        <span class="absolute -bottom-px left-0 w-full sm:w-0 border-b transition-all group-hover:w-full border-zinc-800 dark:border-zinc-100"></span>
+        <span
+          class="absolute -bottom-px left-0 w-full sm:w-0 border-b transition-all group-hover:w-full border-zinc-800 dark:border-zinc-100"
+        ></span>
         The Odin Project
       </a>
       <i class="ph-bold ph-equals ml-2"></i>
